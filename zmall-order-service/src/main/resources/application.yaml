@@ -1,0 +1,8 @@
+#feign:
+#  compression:
+#    request:
+#      enabled: true
+#      mime-types: [application/json, application/xml, text/plain, text/html, application/x-www-form-urlencoded]
+#      min-request-size: 2048
+#    response:
+#      enabled: true
